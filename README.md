@@ -1,14 +1,14 @@
 
 # Rocket Opportunity's **Board Computer**
 ## Introduction
-Welcome to Rocket Opportunity's Board Computer v2.3.2! This open-source project is a culmination of months of dedicated effort to design, develop, and test a functional model rocket board computer. This computer is responsible for monitoring the rocket's flight, making real-time calculations, deploying the parachute, and logging sensor data.
+Welcome to Rocket Opportunity's Board Computer v2.3.2! This project, written in C++ using Arduino modules and libraries, is a culmination of months of dedicated effort to design, develop, and test a functional model rocket board computer. This computer is responsible for monitoring the rocket's flight, making real-time calculations, deploying the parachute, and logging sensor data.
 
 Check out this poster showcasing an early iteration of the computer and rocket <a href="https://drive.google.com/file/d/1Fb76lBiJfNJNnFR3AuLNGKqBDm8GRUav/view?usp=sharing">here</a>.
 
 ## Development Phases
 The project unfolded in three phases:
-1. <b>Physical Board Design (Phase 1):</b> This involved designing and building the physical computer, incorporating sensors, servo motors and an Arduino Nano board running at 16 MHz with an ATmega328P processor.<br><br>
-2. **Flight Algorithm Development (Phase 2):** The flight algorithm was meticulously designed and developed to ensure optimal performance during different flight states.<br><br>
+1. <b>Physical Board Design (Phase 1):</b> This involved designing and building the physical computer, incorporating sensors, servo motors, and an Arduino Nano board running at 16 MHz with an ATmega328P processor.<br><br>
+2. **Flight Algorithm Development (Phase 2):** The flight algorithm, written in C++, was designed and developed to ensure optimal performance during different flight states.<br><br>
 3. **Testing (Phase 3):** The board underwent rigorous testing, both in terms of its physical components and software functionality. Various iterations were flown, outcomes were analyzed, and new generations of the board were developed.
 
 ## Flight States
